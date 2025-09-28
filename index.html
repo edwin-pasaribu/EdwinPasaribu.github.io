@@ -1,186 +1,209 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Edwin Mulia Pasaribu - Portofolio</title>
+		<title>Edwin Mulia Pasaribu - Data Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<meta name="description" content="Portfolio of Edwin Mulia Pasaribu, a Data Enthusiast with over 15 years of experience in data processing, reporting, and automation.">
+		<meta name="author" content="Edwin Mulia Pasaribu">
+		<meta property="og:title" content="Edwin Mulia Pasaribu - Data Portfolio"/>
+		<meta property="og:description" content="Showcasing projects in SQL, Python, Tableau, and Power BI."/>
+		<meta property="og:image" content="images/preview.jpg"/> <meta property="og:url" content="https://edwin-pasaribu.github.io/EdwinPasaribu.github.io/"/>
+		<meta name="twitter:card" content="summary_large_image">
+
+		<link rel="icon" type="image/png" href="images/favicon.png"> 
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+		<style>
+			/* Applying a more modern font */
+			body, h1, h2, h3, p, a, span, li {
+				font-family: 'Open Sans', sans-serif;
+			}
+			#intro .headshot {
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				object-fit: cover;
+				border: 3px solid #ddd;
+			}
+			.project-tools {
+				font-weight: bold;
+				color: #555;
+			}
+			/* ---- START: Definitive Symmetrical Card Fix V3 ---- */
+
+			/* 1. Ensure the main project grid is active and responsive */
+			div#main > section.posts {
+			display: grid;
+			grid-template-columns: 1fr; /* Default to single column on small screens */
+			gap: 2em; /* Spacing between project cards */
+			}
+
+			@media screen and (min-width: 737px) {
+			div#main > section.posts {
+				grid-template-columns: 1fr 1fr; /* Two columns on larger screens */
+			}
+			}
+
+			/* 2. Style each project article for consistent internal layout */
+			div#main > section.posts > article {
+			width: auto; /* Let the grid control width */
+			margin: 0;   /* Remove default article margins */
+			height: 100%; /* Ensure all articles in a row are the same height */
+
+			/* Make article a flex container to align its direct children vertically */
+			display: flex;
+			flex-direction: column;
+			}
+
+			/* 3. Standardize image container behavior */
+			div#main > section.posts > article .image.fit {
+			margin: 0; /* Remove default image wrapper margin */
+			padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+			position: relative;
+			overflow: hidden;
+			height: 0; /* Important for aspect ratio hack */
+			}
+
+			div#main > section.posts > article .image.fit img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover; /* Ensures image fills the container without distortion */
+			}
+
+			/* 4. Fine-tune header, description, and tools for consistent spacing */
+			div#main > section.posts > article header {
+			margin-bottom: 1em; /* Adjust spacing after title */
+			}
+
+			div#main > section.posts > article p {
+			margin-top: 0.5em; /* Consistent top margin for paragraphs */
+			margin-bottom: 0.5em; /* Consistent bottom margin for paragraphs */
+			}
+
+			div#main > section.posts > article p.project-tools {
+			margin-bottom: 1.5em; /* More space before button */
+			}
+
+
+			/* 5. The essential part for vertical button alignment */
+			div#main > section.posts > article > ul.actions {
+			margin-top: auto; /* Pushes the button to the bottom of the flex container */
+			align-self: center; /* Centers the button horizontally within its own space */
+			}
+
+			/* Optional: Adjust button list item margin if needed */
+			div#main > section.posts > article > ul.actions > li {
+			margin: 0; /* Remove default list item margins within actions */
+			}
+
+			/* ---- END: Definitive Symmetrical Card Fix V3 ---- */
+			/* ---- START: Internal Card Content Alignment Fix ---- */
+
+			/* Give the header a consistent height and center the title within it */
+			div#main > section.posts > article > header {
+			min-height: 6em; /* Reserves space for roughly two lines of text */
+			display: flex;
+			flex-direction: column;
+			/* justify-content: center; This vertically centers the title text */
+			}
+
+			/* ---- END: Internal Card Content Alignment Fix ---- */			
+		</style>
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
+				<div id="intro">
+						<img src="images/Photo_Edwin.jpg" alt="Edwin Mulia Pasaribu" class="headshot" />
 						<h1>Edwin Mulia Pasaribu<br />
-						PORTOFOLIO</h1>
-						<p>Data Enthusiast with 15+yrs of data processing, reporting and automation experience 
-							in<br />
-						Telecommunication, Market Research and Game Industry.<br />
-						Well versed in SQL, VBA, Python, Tableau, PowerBI, Grafana, Google Data Studio<br />
-							<a href="https://www.linkedin.com/in/edwin-pasaribu/" target="_blank">@edwin-pasaribu</a>
+						PORTFOLIO</h1>
+						<p>
+							Data Enthusiast with 15+ years of experience in data processing, reporting, and automation 
+							in the Telecommunication, Market Research, and Game Industries.
+						</p>
+						<p>
+							<strong>Key Skills:</strong> SQL, Python (Pandas, Matplotlib), Tableau, Power BI, VBA, Grafana, Google Data Studio.
 						</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
 
-				<!-- Header -->
-					<header id="header">
+				<header id="header">
 						<a href="https://www.linkedin.com/in/edwin-pasaribu/" class="logo" target="_blank">Edwin Mulia Pasaribu</a>
 					</header>
 
-				<!-- Nav -->
 				<nav id="nav">
 					<ul class="links">
-						<li class="active"><a href="index.html">PROJECTS</a></li>
-						<!-- <li><a href="generic.html">ABOUT</a></li>						 -->
+						<li class="active"><a href="index.html">Projects</a></li>
+						<li><a href="#about_me">About Me</a></li>						
 					</ul>
 					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/edwin-pasaribu/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-						<!-- <li><a href="https://github.com/edwin-pasaribu" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li> -->
+						<li><a href="https://www.linkedin.com/in/edwin-pasaribu/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/edwin-pasaribu" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 					</ul>
 				</nav>					
 
-				<!-- Main -->
-					<div id="main">
+				<div id="main">
 
-						<!-- Featured Post -->
-							<!-- <article class="post featured">
-								<header class="major">
-									<h2><a href="https://tinyurl.com/55eeaw72" target="_blank">
-										Inu Neko Sales And RFM Segmentation</a></h2>
-									<p>Inu Neko Store quick analysis and Customer Segmentation using Python.<br />
-									Created using Jupyter Labs with pandas, matplotlib and seaborn for exploration.<br />
-									Original Dataset from 
-									<a href="https://www.kaggle.com/datasets/alicert/ecommerce-online-sales-data-frame" target="_blank">alicert</a>.</p>
-								</header>
-								<a href="https://tinyurl.com/55eeaw72" target="_blank" class="image main"><img src="images/inu_neko.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://tinyurl.com/55eeaw72" target="_blank" class="button large">View Project</a></li>
-								</ul>
-							</article> -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://app.powerbi.com/view?r=eyJrIjoiZmM5ODZhYzQtY2Q1My00MGY2LWI0MWMtOTljNzhmYTE1ZjgxIiwidCI6IjU2NWU2ZjliLWExMTgtNGU4Mi1hNjIzLWE2OTJjMjQ2ZGYxOSIsImMiOjEwfQ%3D%3D&pageName=5492ef5ad7d578fd7f36" target="_blank">
-									Adventure Works Sales Report (Power BI)</a></h2>
-									<p>
-										Recreated a sales performance dashboard in Power BI using the Adventure Works dataset as part of a guided project.<br /> 
-										Practiced building interactive reports with KPIs, slicers, and regional comparisons.<br />
-										Hands-on experience in data modeling, DAX, and publishing dashboards for stakeholder use.<br />
-									</p>
-									<!-- Responsive container for Power BI iframe -->
-									<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
-										<iframe 
-										src="https://app.powerbi.com/view?r=eyJrIjoiZmM5ODZhYzQtY2Q1My00MGY2LWI0MWMtOTljNzhmYTE1ZjgxIiwidCI6IjU2NWU2ZjliLWExMTgtNGU4Mi1hNjIzLWE2OTJjMjQ2ZGYxOSIsImMiOjEwfQ%3D%3D&pageName=5492ef5ad7d578fd7f36"
-										style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" 
-										allowFullScreen="true">
-										</iframe>
-									</div>
+						<section id="about_me" class="post">
+							<header class="major">
+								<h2>About Me</h2>
+							</header>
+							<p>
+								Hello! I'm Edwin, a dedicated data professional with a passion for uncovering insights from complex datasets. With over 15 years of hands-on experience across diverse industries like telecommunications and gaming, I specialize in transforming raw data into actionable reports and automated solutions.
+							</p>
+							<p>
+								My journey has equipped me with a robust skill set in SQL, Python for data analysis, and creating intuitive visualizations with tools like Tableau and Power BI. I thrive on challenges and am always eager to leverage my skills to solve business problems and drive data-informed decisions.
+							</p>
+							<p>
+								<strong>Key Soft Skills:</strong> Problem-Solving, Communication, Teamwork, Attention to Detail. 
+								<!-- <br><i>(Feel free to customize this section to better reflect your personality and career goals!)</i> -->
+							</p>
+						</section>
 
-								</header>
-
-								<ul class="actions special">
-									<li><a href="https://app.powerbi.com/view?r=eyJrIjoiZmM5ODZhYzQtY2Q1My00MGY2LWI0MWMtOTljNzhmYTE1ZjgxIiwidCI6IjU2NWU2ZjliLWExMTgtNGU4Mi1hNjIzLWE2OTJjMjQ2ZGYxOSIsImMiOjEwfQ%3D%3D&pageName=5492ef5ad7d578fd7f36" target="_blank" class="button">View Full Dashboard</a></li>
-								</ul>
-							</article>							
-						<!-- Posts -->
-							<section class="posts">
-								<!-- Inu Neko -->
-								<article>
-									<header>
-										<h2><a href="https://tinyurl.com/55eeaw72" target="_blank">
-											Inu Neko Sales And RFM Segmentation</a></h2>
-									</header>
-									<a href="https://tinyurl.com/55eeaw72" target="_blank" class="image fit">
-										<img src="images/inu_neko.jpg" alt="" />
-									</a>
-									<p>Inu Neko Store quick analysis and Customer Segmentation using Python.
-									Created using Jupyter Labs with pandas, matplotlib and seaborn for exploration.
-									Original Dataset from 
-									<a href="https://www.kaggle.com/datasets/alicert/ecommerce-online-sales-data-frame" target="_blank"><i>alicert</i></a>.</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/55eeaw72" target="_blank" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<!-- Hotel Data Analysis Using Pandas -->
-								<article>
-									<header>
-										<h2><a href="https://tinyurl.com/32t7k8uz" target="_blank">
-											Hotel Data Analysis Using Pandas</a></h2>
-									</header>
-									<a href="https://tinyurl.com/32t7k8uz" target="_blank" class="image fit">
-										<img src="images/pic01.jpg" alt="" /></a>
-									<p>Hotel Data Analysis using Pandas Library in Python.<br />
-										Created using Jupyter Labs with pandas, matplotlib and seaborn for exploration.</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/32t7k8uz" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://tinyurl.com/3ny7unyu" target="_blank">
-											Hotel Data Exploration Dashboard</a></h2>
-									</header>
-									<a href="https://tinyurl.com/3ny7unyu" target="_blank" class="image fit">
-										<img src="images/tableau_logo.png" alt="" /></a>
-									<p>Hotel Data Dashboard for visual exploration using Tableau Public.</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/3ny7unyu" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://tinyurl.com/yc23jasz" target="_blank">Movie Data Correlation With Python</a></h2>
-									</header>
-									<a href="https://tinyurl.com/yc23jasz" target="_blank" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Movie Data Correlation Project with Python for exploration in determining variables affecting Movies gross revenue.</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/yc23jasz" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://tinyurl.com/4yvmz9ub" target="_blank">Covid Data Exploration with SQL</a></h2>
-									</header>
-									<a href="https://tinyurl.com/4yvmz9ub" target="_blank" class="image fit"><img src="images/covid.jpg" alt="" /></a>
-									<p>Exploring Covid Data with SQL to find out the data structure and characteristics.</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/4yvmz9ub" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://tinyurl.com/c8curv5k" target="_blank">Covid Data Exploration Dashboard</a></h2>
-									</header>
-									<a href="https://tinyurl.com/c8curv5k" target="_blank" class="image fit"><img src="images/tableau_logo.png" alt="" /></a>
-									<p>Covid Data Exploration Dashboard for easier view on the trend.</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/c8curv5k" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://tinyurl.com/nh2sj6d5" target="_blank">Nashville Housing Data Cleaning with SQL</a></h2>
-									</header>
-									<a href="https://tinyurl.com/nh2sj6d5" target="_blank" class="image fit"><img src="images/housing.jpg" alt="" /></a>
-									<p>Data cleaning using SQL on Nashville Housing data.</p>
-									<ul class="actions special">
-										<li><a href="https://tinyurl.com/nh2sj6d5" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+						<article id="featured-project-container" class="post featured"></article>						
+						
+						<section class="posts" id="project-container">
+								</section>
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
+				<footer id="footer">
+						<section>
+							<h3>Get In Touch</h3>
+							<form method="post" action="#"> <div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<small><i>This form is for demonstration. To make it functional, you will need to connect it to a backend service.</i></small>
+						</section>
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
@@ -188,33 +211,100 @@
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">edwin.pasaribu@gmail.com</a></p>
+								<p><a href="mailto:edwin.pasaribu@gmail.com">edwin.pasaribu@gmail.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/edwin-pasaribu/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<!-- <li><a href="https://github.com/edwin-pasaribu" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li> -->
+									<li><a href="https://www.linkedin.com/in/edwin-pasaribu/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/edwin-pasaribu" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
 					</footer>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+				<div id="copyright">
+						<ul><li>&copy; Edwin Mulia Pasaribu</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
-
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					const featuredContainer = document.getElementById('featured-project-container');
+					const articlesContainer = document.getElementById('project-container');
+
+					fetch('projects.json')
+						.then(response => response.json())
+						.then(projects => {
+							let featuredHTML = '';
+							let articlesHTML = '';
+
+							projects.forEach(project => {
+								if (project.type === 'featured') {
+									// --- NEW LOGIC START ---
+									// This block now handles different types of featured posts.
+
+									let visualContentHTML = '';
+									// First, check if there's a link to embed (like Power BI).
+									if (project.embedUrl) {
+										visualContentHTML = `
+											<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+												<iframe src="${project.embedUrl}" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allowFullScreen="true"></iframe>
+											</div>`;
+									} 
+									// If not, check if there's an image to display.
+									else if (project.image) {
+										visualContentHTML = `<a href="${project.link}" target="_blank" class="image fit"><img src="${project.image}" alt="${project.title} preview" /></a>`;
+									}
+
+									// Now, build the complete HTML for the featured post.
+									featuredHTML += `
+										<header class="major">
+											<h2><a href="${project.link}" target="_blank">${project.title}</a></h2>
+											<p>${Array.isArray(project.description) ? project.description.join('<br />') : project.description}</p>
+											<p class="project-tools">Tools Used: ${project.tools}</p>
+										</header>
+										${visualContentHTML}
+										<ul class="actions special">
+											<li><a href="${project.link}" target="_blank" class="button large">${project.buttonText}</a></li>
+										</ul>
+									`;
+									// --- NEW LOGIC END ---
+
+								} else if (project.type === 'article') {
+									// This part for regular articles remains the same.
+									articlesHTML += `
+										<article>
+											<header>
+												<h2><a href="${project.link}" target="_blank">${project.title}</a></h2>
+											</header>
+											<a href="${project.link}" target="_blank" class="image fit">
+												<img src="${project.image}" alt="${project.title} project image" />
+											</a>
+											<p>${project.description}</p>
+											<p class="project-tools">Tools Used: ${project.tools}</p>
+											<ul class="actions special">
+												<li><a href="${project.link}" target="_blank" class="button">${project.buttonText}</a></li>
+											</ul>
+										</article>
+									`;
+								}
+							});
+
+							if (featuredContainer) featuredContainer.innerHTML = featuredHTML;
+							if (articlesContainer) articlesContainer.innerHTML = articlesHTML;
+						})
+						.catch(error => console.error('Error fetching projects:', error));
+				});
+			</script>
 
 	</body>
 </html>

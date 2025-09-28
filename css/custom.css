@@ -1,0 +1,39 @@
+/* --- MY PORTFOLIO CUSTOM STYLES --- */
+
+/* 1. Fix for Symmetrical Project Cards Layout */
+div#main > section.posts {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column on mobile */
+  gap: 0; /* The template's borders will handle the spacing */
+}
+
+@media screen and (min-width: 737px) {
+  div#main > section.posts {
+    grid-template-columns: 1fr 1fr; /* Two columns on larger screens */
+  }
+}
+
+/* 2. Fix for Symmetrical Card Content and Height */
+div#main > section.posts > article {
+  width: auto;   /* Let the grid control width */
+  margin: 0;     /* Let the grid control spacing */
+  display: flex;
+  flex-direction: column;
+  height: 100%;  /* Makes all cards in a row the same height */
+}
+
+/* 3. Fix to Align Buttons at the Bottom */
+div#main > section.posts > article > ul.actions {
+  margin-top: auto;
+}
+
+/* 4. Fix for Symmetrical Card Headers */
+div#main > section.posts > article > header {
+  min-height: 6em; /* Standardizes header height */
+}
+
+/* 5. The Definitive Fix for the "Smushed" Featured Image */
+.post.featured .image.fit img {
+  height: auto;        /* This allows the height to scale proportionally */
+  object-fit: contain; /* This ensures the entire image fits without distortion */
+}
