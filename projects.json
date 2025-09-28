@@ -1,0 +1,79 @@
+[
+  {
+    "type": "featured",
+    "title": "Adventure Works Sales Report",
+    "link": "https://app.powerbi.com/view?r=eyJrIjoiZmM5ODZhYzQtY2Q1My00MGY2LWI0MWMtOTljNzhmYTE1ZjgxIiwidCI6IjU2NWU2ZjliLWExMTgtNGU4Mi1hNjIzLWE2OTJjMjQ2ZGYxOSIsImMiOjEwfQ%3D%3D&pageName=5492ef5ad7d578fd7f36",
+    "image": "images/Adventure_Works_PBI.png",
+    "embedUrl": "https://app.powerbi.com/view?r=eyJrIjoiZmM5ODZhYzQtY2Q1My00MGY2LWI0MWMtOTljNzhmYTE1ZjgxIiwidCI6IjU2NWU2ZjliLWExMTgtNGU4Mi1hNjIzLWE2OTJjMjQ2ZGYxOSIsImMiOjEwfQ%3D%3D&pageName=5492ef5ad7d578fd7f36",
+    "description": [
+      "Recreated a sales performance dashboard in Power BI using the Adventure Works dataset as part of a guided project.",
+      "Practiced building interactive reports with KPIs, slicers, and regional comparisons.",
+      "Hands-on experience in data modeling, DAX, and publishing dashboards for stakeholder use."
+    ],
+    "tools": "Power BI, DAX",
+    "buttonText": "View Interactive Dashboard"
+  },
+  {
+    "type": "article",
+    "title": "Inu Neko Sales And RFM Segmentation",
+    "link": "https://tinyurl.com/55eeaw72",
+    "image": "images/inu_neko.jpg",
+    "description": "Inu Neko Store quick analysis and Customer Segmentation using Python with pandas, matplotlib and seaborn.",
+    "tools": "Python, Pandas, Matplotlib, Seaborn",
+    "buttonText": "View Project"
+  },
+  {
+    "type": "article",
+    "title": "Hotel Data Analysis",
+    "link": "https://tinyurl.com/32t7k8uz",
+    "image": "images/pic01.jpg",
+    "description": ["Hotel Data Analysis created using Jupyter Labs with pandas, matplotlib and seaborn for exploration."],
+    "tools": "Python, Pandas, Matplotlib, Seaborn",
+    "buttonText": "View Project"
+  },
+  {
+    "type": "article",
+    "title": "Hotel Data Exploration Dashboard",
+    "link": "https://tinyurl.com/3ny7unyu",
+    "image": "images/tableau_logo.png",
+    "description": ["Hotel Data Dashboard for visual exploration using Tableau Public."],
+    "tools": "Tableau",
+    "buttonText": "View Project"
+  },
+  {
+    "type": "article",
+    "title": "Movie Data Correlation",
+    "link": "https://tinyurl.com/yc23jasz",
+    "image": "images/pic03.jpg",
+    "description": ["Project to determine which variables affect a movie's gross revenue using Python for exploration."],
+    "tools": "Python, Pandas, Seaborn",
+    "buttonText": "View Project"
+  },
+  {
+    "type": "article",
+    "title": "Covid Data Exploration",
+    "link": "https://tinyurl.com/4yvmz9ub",
+    "image": "images/covid.jpg",
+    "description": ["Exploring Covid Data to find out the data structure and characteristics for further analysis."],
+    "tools": "SQL",
+    "buttonText": "View Project"
+  },
+  {
+    "type": "article",
+    "title": "Covid Data Dashboard",
+    "link": "https://tinyurl.com/c8curv5k",
+    "image": "images/tableau_logo.png",
+    "description": ["A Covid Data Exploration Dashboard for an easier view on the infection and vaccination trends."],
+    "tools": "Tableau",
+    "buttonText": "View Project"
+  },
+  {
+    "type": "article",
+    "title": "Nashville Housing Data Cleaning",
+    "link": "https://tinyurl.com/nh2sj6d5",
+    "image": "images/housing.jpg",
+    "description": ["A project focusing on data cleaning techniques using SQL on Nashville Housing data."],
+    "tools": "SQL",
+    "buttonText": "View Project"
+  }   
+]
